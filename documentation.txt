@@ -22,7 +22,7 @@ This will install packages and dependencies needed for running the program.
 If the previous command doesn't work, you may need to install uv first using 
 this command: "uv init ." . 
 
-After install the dependencies, type "uv run streamlit run main.py" to run the 
+After installing the dependencies, type "uv run streamlit run main.py" to run the 
 file You may also need to reset the terminal if you want to run it again later on. 
 
 When run, a browser will open up and you will see a webpage where you 
