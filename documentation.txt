@@ -16,9 +16,12 @@ In general, the model can classify images of animals and other general
 objects although it can't identify specific brands or names of living and 
 non-living objects. 
 
-In order to run the file, open the terminal and type: "streamlit run main.py"
-without the double quotes. You may also need to reset the terminal if you want
-to run it again. 
+In order to run the file, open the terminal and type: 
+"uv add streamlit tensorflow opencv-python" . (Don't include double quotes)
+This will install packages and dependencies needed for running the program. 
+
+Then, type "uv run streamlit run main.py" to run the file You may also need to 
+reset the terminal if you want to run it again later on. 
 
 When run, a browser will open up and you will see a webpage where you are 
 can upload an image. This program only accepts images in png, jpg or jpeg 
