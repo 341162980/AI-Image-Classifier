@@ -1,0 +1,29 @@
+This project is an AI image detector which allows users to upload an image,
+and request the AI to classify this image. Keep in mind that this program 
+has limitations in what it can detect. 
+
+This program uses streamlit which is a web based app which allows users
+an interactive way to upload images, request classification, and view the 
+top five predictions. 
+
+The model used is MobileNetV2 which is pre-trained lightweight model from 
+TensionFlow's Keras API. A lightweight model has limitations in its training
+so it won't correctly classify all images. There is also a list of items 
+that the model was trained to detect. You can see the list via this link: 
+https://storage.googleapis.com/download.tensorflow.org/data/imagenet_class_index.json
+
+In general, the model can classify images of animals and other general 
+objects although it can't identify specific brands or names of living and 
+non-living objects. 
+
+In order to run the file, open the terminal and type: "streamlit run main.py"
+without the double quotes. You may also need to reset the terminal if you want
+to run it again. 
+
+When run, a browser will open up and you will see a webpage where you are 
+can upload an image. This program only accepts images in png, jpg or jpeg 
+format. After an image is successfully uploaded, click the Classify Image
+button and the predictions will be displayed at the bottom of the page. 
+
+The file named 'Classifier_use_case.png' demonstrates an example of how the 
+model is used. 
