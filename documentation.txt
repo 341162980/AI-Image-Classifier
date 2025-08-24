@@ -19,9 +19,11 @@ non-living objects.
 In order to run the file, open the terminal and type: 
 "uv add streamlit tensorflow opencv-python" . (Don't include double quotes)
 This will install packages and dependencies needed for running the program. 
+If the previous command doesn't work, you may need to install uv first using 
+this command: "uv init ." . 
 
-Then, type "uv run streamlit run main.py" to run the file You may also need to 
-reset the terminal if you want to run it again later on. 
+After install the dependencies, type "uv run streamlit run main.py" to run the 
+file You may also need to reset the terminal if you want to run it again later on. 
 
 When run, a browser will open up and you will see a webpage where you 
 can upload an image. This program only accepts images in png, jpg or jpeg 
