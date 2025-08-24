@@ -23,7 +23,7 @@ This will install packages and dependencies needed for running the program.
 Then, type "uv run streamlit run main.py" to run the file You may also need to 
 reset the terminal if you want to run it again later on. 
 
-When run, a browser will open up and you will see a webpage where you are 
+When run, a browser will open up and you will see a webpage where you 
 can upload an image. This program only accepts images in png, jpg or jpeg 
 format. After an image is successfully uploaded, click the Classify Image
 button and the predictions will be displayed at the bottom of the page. 
